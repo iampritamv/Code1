@@ -1,3 +1,10 @@
+# 1 2 4 5
+
+# Expected sum = 5*6/2 = 15
+# Actual sum = 1+2+4+5 = 12
+# Missing = 15-12 = 3
+
+
 arr = list(map(int,input().split()))
          
 size = int(input("Enter size"))

@@ -1,3 +1,10 @@
+# 0 0 1 0 1 1 0
+
+# 6
+
+# (Subarray: 0 1 0 1 1 0)
+
+
 arr = list(map(int , input().split()))
 size = len(arr)
 max_len = 0

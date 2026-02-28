@@ -8,9 +8,5 @@ def Max(list1):
 
     return maxi
 
-
-
-
-
 list1 = [ 1 , 2 ,300 ,48 ,5 ,6]
 print(Max(list1))

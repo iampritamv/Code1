@@ -1,3 +1,8 @@
+# a1 = 1 2 3 4 5
+# a2 = 3 4 5 6 7
+# o/p - 3 4 5
+
+
 arr1 = list(map(int,input().split()))
 arr2 = list(map(int,input().split()))
 
