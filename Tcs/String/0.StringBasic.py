@@ -1,19 +1,19 @@
 
-#1. String slicing
-# s = "Python"
+# 1. String slicing
+s = "Python"
 
-# print(s[0:4])   # Pyth
-# print(s[:3])    # Pyt
-# print(s[2:])    # thon
-# print(s[::-1])  # nohtyP (reverse string)
+print(s[0:4])   # Pyth
+print(s[:3])    # Pyt
+print(s[2:])    # thon
+print(s[::-1])  # nohtyP (reverse string)
 
-#2. Loop through string
-# s = "Code"
+# 2. Loop through string
+s = "Code"
 
-# for ch in s:
-#     print(ch)
+for ch in s:
+    print(ch)
 
-#3 . Convert case
+# 3 . Convert case
 s = "python"
 
 print(s.upper())   # PYTHON

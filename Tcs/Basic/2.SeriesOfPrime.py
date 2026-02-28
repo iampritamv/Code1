@@ -1,5 +1,8 @@
-n = int(input("Enter : "))
+# Input - 5 
+# Output - 2 3 5 
 
+
+n = int(input("Enter : "))
 
 if n < 2 : 
     print("No prime")
