@@ -9,6 +9,12 @@ arr = list(map(int , input().split()))
 # print(*arr)
 
 # 2. Size + elements in new lines
+# 5  size 
+# 10
+# 20
+# 30
+# 40
+# 50
 
 n = int(input())
 
@@ -24,7 +30,7 @@ for i in range(n):
 # 1 2 3 4 5
 
 arr = list(map(int, input().split()))
-n = len(arr)
+
 
 
 # 4. Comma-separated input
@@ -40,3 +46,14 @@ arr = list(map(int, input().split(',')))
 s = input().strip()
 s = s.strip('[]')
 arr =  list(map(int, s.split(',')))
+
+#6 String
+n = int(input())
+
+arr = []
+
+for i in range(n):
+    e = input().strip() 
+    arr.append(e)
+
+print(arr)
