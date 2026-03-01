@@ -1,12 +1,17 @@
-def Max(list1):
-    
-    maxi = float("-inf")
+#2nd Largest element in array
+n =int(input())
 
-    for i in range(0 , len(list1)):
-        if list1[i] > maxi :
-            maxi = list1[i]
+arr=[]
 
-    return maxi
+for i in range(n):
+    num = int(input())
+    arr.append(num)
 
-list1 = [ 1 , 2 ,300 ,48 ,5 ,6]
-print(Max(list1))
+arr.sort()
+maxi = arr[-1]
+
+for i in range(n-2, - 1 , -1):
+    if arr[i] != maxi :
+        second = arr[i]
+        
+print(second)

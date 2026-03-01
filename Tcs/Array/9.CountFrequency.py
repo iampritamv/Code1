@@ -1,3 +1,5 @@
+#Count frequency of each element in array
+
 # i/p 1 2 2 3 3 3 4
 #o/p
 # 1 → 1
@@ -18,3 +20,6 @@ for num in arr :
 
 for key in freq :
     print(key , freq[key])
+
+for k , v in freq.items():
+    print(f"{k}->{v}")

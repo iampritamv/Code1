@@ -1,3 +1,4 @@
+#Count frequency of characters in string
 s= input("enter ")
 
 freq = {}

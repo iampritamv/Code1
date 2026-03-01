@@ -8,8 +8,8 @@ arr = list(map(int , input().split()))
 
 # print(*arr)
 
-# 2. Size + elements in new lines
-# 5  size 
+# 2. Size + elements in new lines (most)
+# 5 -> size 
 # 10
 # 20
 # 30
@@ -35,25 +35,32 @@ arr = list(map(int, input().split()))
 
 # 4. Comma-separated input
 
-1,2,3,4,5
+# 1,2,3,4,5
 
 arr = list(map(int, input().split(',')))
 
 # 5. Bracket input (rare but possible)
 
-[1,2,3,4,5]
+# [1,2,3,4,5]
 
 s = input().strip()
 s = s.strip('[]')
 arr =  list(map(int, s.split(',')))
 
-#6 String
+#6 String array
+# 3
+# cat
+# dog
+# lion
+
 n = int(input())
-
 arr = []
-
 for i in range(n):
     e = input().strip() 
     arr.append(e)
 
 print(arr)
+
+#7 ['apple', 'mango', 'banana', 'orange']   Store as list of strings.
+
+arr = input().split()
